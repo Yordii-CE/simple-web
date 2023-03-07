@@ -6,7 +6,10 @@
   width: max-content;
 }
 .presentation img {
-  width: 200px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 .presentation h4 {
   text-align: center;
@@ -15,6 +18,10 @@ a {
   text-decoration: none;
   padding: 5px;
   color: black;
+}
+ul,
+ol {
+  line-height: 2;
 }
 .content img {
   padding: 20px;
